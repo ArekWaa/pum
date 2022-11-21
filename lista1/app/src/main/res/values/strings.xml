@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Quiz</string>
+    <string name="true_button">PRAWDA</string>
+    <string name="false_button">FAŁSZ</string>
+    <string name="question">Pytanie</string>
+    <string name="cheat">OSZUKAJ</string>
+</resources>
