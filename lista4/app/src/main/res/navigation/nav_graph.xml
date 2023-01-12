@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/capitalsFragment">
+
+    <fragment
+        android:id="@+id/capitalsFragment"
+        android:name="com.example.restcountiresapp.CapitalsFragment"
+        android:label="fragment_capitals"
+        tools:layout="@layout/fragment_capitals" >
+        <action
+            android:id="@+id/action_capitalsFragment_to_flagsFragment"
+            app:destination="@id/flagsFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/flagsFragment"
+        android:name="com.example.restcountiresapp.FlagsFragment"
+        android:label="fragment_flags"
+        tools:layout="@layout/fragment_flags" />
+</navigation>
